@@ -1,40 +1,43 @@
-# Telegram Bot to Google Sheets Automation
+# Telegram Bot → Google Sheets Automation
 
-🚀 This project demonstrates how to connect a **Telegram Bot** with **Google Sheets** using [Make.com](https://www.make.com/) for seamless automation.
+🚀 This project shows how to connect a **Telegram Bot API** with **Google Sheets** using [Make.com](https://www.make.com/) for seamless automation.
 
 ---
 
 ## 📌 Project Idea
-Whenever you send a message (for example: a YouTube link or a quick note) to your Telegram Bot, it will automatically be saved as a new row in Google Sheets along with a timestamp.
+Every time I send a **message** (not only links — any quick note or text) to my Telegram Bot, it automatically gets saved in Google Sheets along with the timestamp ⏳.
 
 ---
 
-## ⚡ Features
-- Save important links from Telegram instantly.
-- Keep notes and messages organized in Google Sheets.
-- Improve productivity by automating repetitive tasks.
-
+## ⚡ Benefits
+- Never lose important notes in chats again 💬  
+- Keep everything organized in Google Sheets 📊  
+- Save time & boost productivity ⏱️  
 ---
 
 ## 🔧 Tools Used
-- **Telegram Bot** (created via BotFather 🤖)
-- **Make.com** (Scenario: Watch Updates → Add Row ⚙️)
-- **Google Sheets** 📊
+- **Telegram Bot** (via BotFather 🤖)  
+- **Make.com** (Scenario: Watch Updates → Add Row ⚙️)  
+- **Google Sheets** 📑  
 
 ---
 
 ## 📂 Files
-- `README.md` → Project documentation.
-- `Telegram Bot.json` → Example of Make.com scenario structure.
+- `README.md` → Documentation for the project.  
+- `Telegram Bot.json` → Example scenario file structure.  
+
 ---
 
 ## 🚀 How it Works
-1. Create a Telegram Bot via [BotFather](https://t.me/botfather) and get the API Token.
-2. In [Make.com](https://www.make.com/):
-   - Add **Telegram Bot** module → *Watch Updates*.
-   - Add **Google Sheets** module → *Add Row*.
-   - Map the Telegram message → to **Link column**.
-   - Add **Now()** function → to **Date column**.
-3. Run the scenario → send any message to your bot → data will appear in Google Sheets automatically.
+1. Create a Telegram Bot via [BotFather](https://t.me/botfather) and get the **API Token**.  
+2. In [Make.com](https://www.make.com/):  
+   - Add **Telegram Bot** module → *Watch Updates*.  
+   - Add **Google Sheets** module → *Add Row*.  
+   - Map the message text → to **Message column**.  
+   - Add **Now()** → to **Date column**.  
+3. Run the scenario → Send any message to the bot → A new row will appear in Google Sheets automatically.  
 
-💡 Even small automations like this can make a big difference in daily workflow efficiency!
+
+---
+
+💡 Even small automations like this can make a big difference in everyday workflows!
